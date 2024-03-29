@@ -1,0 +1,119 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 0.72,
+        "y": 6.74
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.3473171105886368,
+        "y": 6.759221267730286
+      },
+      "isLocked": false,
+      "linkedName": "Top_Start"
+    },
+    {
+      "anchor": {
+        "x": 2.6687565625843503,
+        "y": 6.595503105536126
+      },
+      "prevControl": {
+        "x": 2.9260279603180286,
+        "y": 6.548726487766366
+      },
+      "nextControl": {
+        "x": 2.449595261038544,
+        "y": 6.635350614908091
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 2.8675571881058293,
+        "y": 6.9346335843668845
+      },
+      "prevControl": {
+        "x": 2.9026396514331485,
+        "y": 6.899551121039565
+      },
+      "nextControl": {
+        "x": 2.6522459760236625,
+        "y": 7.149944796449054
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 0.72,
+        "y": 6.74
+      },
+      "prevControl": {
+        "x": 1.335622956146197,
+        "y": 6.759221267730286
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Top_Start"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "New Event Marker",
+      "waypointRelativePos": 1.0,
+      "command": {
+        "type": "sequential",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "shooter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "New Event Marker",
+      "waypointRelativePos": 0,
+      "command": {
+        "type": "sequential",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "intake"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 1.5,
+    "maxAcceleration": 1.5,
+    "maxAngularVelocity": 720.0,
+    "maxAngularAcceleration": 900.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 60.0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Top_Paths",
+  "previewStartingState": {
+    "rotation": 60.0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}
